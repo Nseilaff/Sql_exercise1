@@ -13,7 +13,7 @@ select * from employees where not middleInital;
 -- find distinct product prices
 select distinct prices;
 -- find all employees whose first name starts with the letter ‘j’
-select * from employees where firstName like 'a%';
+select * from employees where firstName like 'j%';
 -- find all Macbooks
 select * from products where Name Like '%Macbook%';
 -- find all products that are on sale
